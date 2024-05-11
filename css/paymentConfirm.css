@@ -1,0 +1,74 @@
+
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+}
+.bankNameandIdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bankImage{
+    height: 100xpx;
+    width: 100px;
+    object-fit: cover;
+}
+.bankName{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.bankId{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.file{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.paymentUploadProofHeading{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightgray;
+
+}
+.flex{
+    display: flex !important;
+}
+.imageOperation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imageOperation .operation{
+    font-weight: bold;
+   color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitButton{
+    background-color: #254254;
+   
+}
+
+.formLabel{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:gray;
+}
+
+
+    

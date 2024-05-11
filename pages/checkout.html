@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script  src="../js/agent.js"></script>
+    <link rel="stylesheet" href="../css/agent.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header"></div>
+    <script>
+        $(".header").load("brandNav.html")
+    </script>
+    
+    <div class="container">
+        <div class="row">
+            <div class="outerCheckBox">
+                <div class="row">
+                <div class="col-md-4 col-lg-4 col-xl-4"></div>
+                <div class="col-md-5 col-lg-4 col-xl-4">
+                    <div class="mainContentSection">
+                        <div class="acceptedCheck">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <b> Thank You </b>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia alias sequi libero porro molestias delectus obcaecati quos sapiente iusto quasi.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-primary backButton">Back to Home</button> 
+                            &nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-primary bookingButton">View Booking</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".fa-bars").click(()=>{
+            $(".rightNav").toggleClass("showHide")
+        })
+    </script>
+</body>
+</html>

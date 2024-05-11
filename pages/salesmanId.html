@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script  src="../js/agent.js"></script>
+    <link rel="stylesheet" href="../css/agent.css">
+   
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header"></div>
+    <script>
+        $(".header").load("brandNav.html")
+    </script>
+
+    <div class="container salesmanId mt-5">
+        <div class="row">
+            <div class=" col-lg-3 col-md-2"></div>
+            <div class=" col-lg-6 col-md-9 col-xm-12 salesmanSection">
+                <div class="d-flex justify-content-between text-center">
+                    <span class="title"> <b> Salesman ID </b> </span>
+                    <button class="addSalesman  ">  <i class="fa fa-plus"></i> Add Salesman ID  </button> 
+                </div>
+                <form>
+                    <div class="d-flex justify-content-between mt-3">
+                        <label class="salesId"> SALESMAN ID 1 </label>
+                        <span class="boatsName">  Ali Abraham (Wonder Boats) </span>
+                    </div>
+                    <div class="salesmanIdOuterBox">
+                        <div class=" salesmanIdBox">
+                            <input type="text" class="form-control mt-1" value="ABCD1233SSS">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <i class="fa fa-trash"></i>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                        <label class="salesId"> SALESMAN ID 1 </label>
+                        <span class="boatsName">  Ali Abraham (Wonder Boats) </span>
+                    </div>
+                    <div class="salesmanIdOuterBox">
+                        <div class=" salesmanIdBox">
+                            <input type="text" class="form-control mt-1" value="ABCD1233SSS">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <i class="fa fa-trash"></i>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                        <label class="salesId"> SALESMAN ID 1 </label>
+                        <span class="boatsName">  Ali Abraham (Wonder Boats) </span>
+                    </div>
+                    <div class="salesmanIdOuterBox">
+                        <div class=" salesmanIdBox">
+                            <input type="text" class="form-control mt-1" value="ABCD1233SSS">
+                            <i class="fa fa-close"></i>
+                        </div>
+                        <i class="fa fa-trash"></i>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                        <label class="salesId"> SALESMAN ID 1 </label>
+                        <!-- <span class="boatsName">  Ali Abraham (Wonder Boats) </span> -->
+                    </div>
+                    <div class="salesmanIdOuterBox">
+                        <div class=" salesmanIdBox">
+                            <input type="text" class="form-control mt-1" placeholder="Please enter salesman ID">
+                            <!-- <i class="fa fa-close"></i> -->
+                        </div>
+                        <i class="fa fa-trash"></i>
+                    </div >
+                    <div class="saveChangesBox mt-4">
+                        <button class=" btn saveChanges">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="col-md-3"></div> -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        $(".fa-bars").click(()=>{
+            $(".rightNav").toggleClass("showHide")
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+.navigationBar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    
+    
+}
+.navSection{
+
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+    padding-bottom: 10px;
+    
+    
+}
+a{
+    padding:0px;
+    margin: 0px;
+}
+ul {
+    padding : 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-right: 3px solid gray;
+    align-items: center;
+    height: 50px;
+    
+    
+}
+ul li a{
+    color : black;
+    font-weight: bold;
+}
+.rightNav{
+  
+    width: 55%;
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    
+    
+}
+.profileImage{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    align-items: center;
+    align-self: center;
+}
+.profileSection{
+    
+    width: 40%;
+    display: flex;
+    column-gap: 10px;
+    display: flex;
+    justify-content:space-between;
+    justify-content: ;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.imageandNav{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.loggedIn{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px
+}
+
+.menu{
+    height: 40px;
+    width: 40px;
+    
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top:0;
+    margin-right: 19px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+@media screen and (max-width : 1025px) {
+
+    .rightNav{
+  
+  width: 70%;
+    }
+    .profileSection{
+    
+    width: 50%;
+    }
+}
+
+@media screen and (max-width : 770px) {
+
+    .navigationBar{
+        height: 50px;
+        display: block;
+    }
+
+    .navSection{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        position: relative;
+        height: auto;
+        justify-content: center !important;
+        height: calc(100vh);
+        justify-content: start;
+    }
+
+.rightNav{
+
+width: 105%;
+flex-direction: column !important;
+justify-content: space-between;
+align-items: flex-start !important;
+margin-top:10px;
+position: relative;
+background-color: #254254;
+
+height: 150%;
+padding-left: 20px;
+top : -500vh;
+transition: all 0.4s;
+z-index: 1000;
+
+}
+.profileSection{
+padding-left: 0px;
+width: auto;
+column-gap: 20px;
+align-items: center;
+color:white;
+margin-bottom: 30px;
+}
+
+ul{
+flex-direction: column !important;
+height: auto;
+align-items: flex-start;
+border-right:none;
+margin-top: 20px;
+color:white;
+}
+ul li{
+margin-top: 30px;
+}
+ul li a{
+color:white;
+}
+.brandSection{
+
+margin-top: 0px;
+display:block;
+}
+
+
+.menu{
+display: block;
+}
+
+.brandSection{
+    margin-left: 20px;
+}
+}
+.brandSection a{
+font-weight: bold;
+font-size: 20px;
+}
+.showHide{
+top : 0vh;
+}

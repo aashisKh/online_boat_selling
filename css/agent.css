@@ -1,0 +1,1655 @@
+* {
+  list-style: none;
+  text-decoration: none !important;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.agentOuterBox {
+  display: none;
+}
+
+.agentOuterBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.agentOuterBox .contentBox {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.agentOuterBox .contentBox .middleBox {
+  width: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.agentOuterBox .searchSection .information {
+  font-weight: bold;
+  font-size: 40px;
+  overflow: none;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 50px;
+}
+
+.agentOuterBox .searchSection img {
+  height: 15px;
+  width: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.agentOuterBox .searchSection .searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.agentOuterBox .searchSection .searchBar div {
+  width: 25%;
+}
+
+.agentOuterBox .searchSection .searchBar div span {
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.agentOuterBox .searchSection .searchBar div h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.agentOuterBox .searchSection .searchBar button {
+  background-color: #254254;
+  color: white;
+  width: 80%;
+  background-color: red;
+}
+
+.agentOuterBox .profileSection {
+  background-color: #D3D3D340;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+}
+
+.agentOuterBox .profileSection .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.agentOuterBox .profileSection .profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.agentOuterBox .imageBox {
+  width: 40%;
+  height: 100%;
+}
+
+.agentOuterBox .imageBox img {
+  height: calc(100vh - 80px);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 770px) {
+  .agentOuterBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .agentOuterBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .agentOuterBox .contentBox {
+    width: 100%;
+  }
+  .imageBox {
+    width: 100% !important;
+    height: 100%;
+  }
+  .imageBox img {
+    height: 50vh !important;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .searchSection .information {
+    font-weight: bold;
+    font-size: 20px !important;
+    overflow: none;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 50px;
+  }
+  .searchSection .searchBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .searchSection .searchBar div {
+    width: 100%  !important;
+  }
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header .contentHolder {
+  display: none;
+  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .contentHolder .navSection {
+  border-right: 2px solid lightgray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.header .contentHolder .navSection .navitationLink {
+  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .contentHolder .navSection .navitationLink ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .contentHolder .navSection .navitationLink .leftLink a {
+  color: #254254;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.header .contentHolder .navSection .navitationLink .rightLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .contentHolder .navSection .navitationLink .rightLink a {
+  color: black;
+  font-weight: bold;
+}
+
+.header .contentHolder .profileSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  line-height: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+}
+
+.header .contentHolder .profileSection img {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header .contentHolder .profileSection .agent {
+  color: gray;
+  font-size: 13px;
+}
+
+.header .contentHolder .profileSection .agentName {
+  font-weight: bold;
+}
+
+.header .contentHolder .fas {
+  margin-right: 10px;
+}
+
+.toggleLists {
+  margin-top: 0vh !important;
+}
+
+.mobileHeaderContent {
+  margin-top: 0px !important;
+  width: 100%;
+  display: none;
+}
+
+.mobileHeaderContent .mobileHeader {
+  background-color: #254254;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.mobileHeaderContent .mobileHeader a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mobileHeaderContent .mobileHeader .fa-bars {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.mobileHeaderContent .menuLists {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  padding-left: 0px !important;
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+  left: -100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 10;
+}
+
+.mobileHeaderContent .menuLists .rightLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  padding: auto;
+}
+
+.mobileHeaderContent .menuLists .profileSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  line-height: 18px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 30px;
+}
+
+.mobileHeaderContent .menuLists .profileSection img {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mobileHeaderContent .menuLists .profileSection .agent {
+  color: gray;
+  font-size: 13px;
+}
+
+.mobileHeaderContent .menuLists .profileSection .agentName {
+  font-weight: bold;
+}
+
+.mobileHeaderContent .menuLists .profileSection .agensAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.availableBoats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.availableBoats .boatDetailSection {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.availableBoats .list {
+  width: 30%;
+}
+
+.availableBoats .list .listName {
+  color: gray;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.availableBoats .boatLists .boatDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px !important;
+          column-gap: 20px !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.availableBoats .boatLists .boatDetail img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.availableBoats .boatLists .boatDetail .flag {
+  height: 20px;
+  width: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.availableBoats .boatLists .boatDetail .tag {
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.availableBoats .boatLists .boatDetail .card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.availableBoats .boatLists .boatDetail .price {
+  font-size: 12px;
+}
+
+.availableBoats .boatLists .boatDetail .rating {
+  font-size: 12px;
+}
+
+.availableBoats .boatLists .boatDetail .fa-star {
+  color: yellow;
+}
+
+.availableBoats .boatLists .boatDetail .icon {
+  font-size: 12px;
+}
+
+.paymentSection {
+  background-color: #FAFAFa;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paymentSection .paymentConfirm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.paymentSection .paymentConfirm .bankName {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.paymentSection .paymentConfirm .bankId {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.paymentSection .paymentConfirm .card .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paymentSection .paymentConfirm .card .card-body img {
+  height: 60px !important;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.paymentSection .paymentConfirm label {
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.paymentSection .paymentConfirm .imageSelection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.paymentSection .paymentConfirm .imageSelection .file {
+  font-size: 40px;
+  background-color: #efeaea;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.paymentSection .paymentConfirm .imageSelection .imageOperation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+}
+
+.paymentSection .paymentConfirm .imageSelection .imageOperation .operation {
+  color: #254254;
+  font-weight: bold;
+}
+
+.paymentSection .submitButton {
+  background-color: #254254;
+  color: white;
+}
+
+.checkOut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.checkOut .checkOutSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  text-align: center;
+  height: calc(100vh - 80px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkOut .checkOutSection .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  font-weight: lighter !important;
+  color: #66D17b;
+  background-color: #00FF0015;
+  padding: 35px;
+  border-radius: 100%;
+}
+
+.checkOut .checkOutSection .buttons {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.checkOut .checkOutSection .normalButton {
+  border: 2px solid lightgray;
+  font-weight: bold;
+}
+
+.checkOut .checkOutSection .brandButton {
+  background-color: #254254;
+  color: white;
+}
+
+.booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.booking .bookingSection {
+  width: 60%;
+}
+
+.booking .searchSection input {
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  padding-left: 30px;
+}
+
+.booking .searchSection .search {
+  position: relative;
+}
+
+.booking .searchSection .search .fa-search {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: gray;
+}
+
+.booking .bookingDescription img {
+  height: 120px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.booking .bookingDescription .viewSection {
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking .bookingDescription .bookedBy {
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.booking .bookingDescription .boatName {
+  font-size: 20px;
+}
+
+.booking .bookingDescription .bookedDate {
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.booking .bookingDescription .total {
+  font-weight: bold;
+  color: gray;
+  font-size: 12px;
+}
+
+.booking .bookingDescription .money {
+  font-size: 18px;
+}
+
+.booking .bookingDescription .paymentButton {
+  background-color: #254254;
+  color: white;
+}
+
+.booking .bookingDescription .underHr .confirmation {
+  color: gray;
+  font-weight: bold;
+  display: none;
+}
+
+.booking .cancelBooking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.salesmanId {
+  height: auto;
+}
+
+.salesmanId .salesmanSection {
+  height: auto;
+}
+
+.salesmanId .salesmanSection .salesmanIdOuterBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px !important;
+          column-gap: 10px !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.salesmanId .salesmanSection .salesmanIdOuterBox .salesmanIdBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0px;
+  width: 100%;
+}
+
+.salesmanId .salesmanSection .salesmanIdOuterBox .salesmanIdBox .fa-check, .salesmanId .salesmanSection .salesmanIdOuterBox .salesmanIdBox .fa-close {
+  color: green;
+  font-size: 20px;
+  position: absolute;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.salesmanId .salesmanSection .salesmanIdOuterBox .salesmanIdBox .fa-close {
+  color: red;
+}
+
+.salesmanId .fa-trash {
+  color: gray;
+  font-size: 14px;
+  position: relative;
+}
+
+.salesmanId .addSalesman {
+  border: 2px solid lightgray;
+  background-color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.salesmanId .salesId {
+  color: gray;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.salesmanId .boatsName {
+  color: gray;
+  font-size: 10px;
+  font-weight: bold;
+  padding-right: 24px;
+}
+
+.salesmanId .salesmannotfound {
+  font-size: 12px;
+  color: red;
+}
+
+.salesmanId .saveChangesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.salesmanId .saveChangesBox .saveChanges {
+  background-color: #254254;
+  color: white;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.manageAgent .addAgent {
+  border: 2px solid lightgray;
+  background-color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.manageAgent .agentAdminSection {
+  padding: 20px;
+}
+
+.manageAgent .agentAdminSection div .img {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.manageAgent .fa {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.manageAgent .operations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.manageAgent .userImage {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.manageAgent .userImageAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.manageAgent .userImageAndName .nameAndPosition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 17px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.addNewAgentModalBox {
+  background-color: #00000050;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: 2000;
+}
+
+.addNewAgentModalBox .newAgentBox {
+  background-color: white;
+  margin-top: 30%;
+  padding: 30px;
+  z-index: 1;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.addNewAgentModalBox .agentAttributes {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.addNewAgentModalBox .information {
+  font-size: 14px;
+}
+
+.addNewAgentModalBox .agentButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.addNewAgentModalBox #addNewAgentButton {
+  background-color: #254254;
+  color: white;
+}
+
+#successModalBox .successBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#successModalBox .fa-check {
+  font-size: 30px;
+  color: green;
+  background-color: #00FF0040;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#successModalBox .backToList {
+  border: 2px solid lightgray;
+  font-size: 14px;
+}
+
+#successModalBox .addAnotherAgent {
+  background-color: #254254;
+  color: white;
+  font-size: 14px;
+}
+
+#successModalBox .buttonBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boatOwnerProfile .mainImge {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-top: 120px;
+}
+
+.boatOwnerProfile .backgroundImage {
+  height: 120px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background: url("../images/boat.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boatOwnerProfile .boatNamesAndInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boatOwnerProfile .boatNamesAndInfo p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.boatOwnerProfile .contactDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  font-size: 15px;
+}
+
+.avaibleBoatsSection .priceButton {
+  border: 2px solid lightgray;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+}
+
+.avaibleBoatsSection .boatImagesSection img {
+  height: 150px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.avaibleBoatsSection .boatImagesSection .flag {
+  height: 20px;
+  width: 20px;
+}
+
+.payment .card .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment .card .card-body img {
+  height: 60px !important;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.payment .flag {
+  height: 20px;
+  width: 20px;
+}
+
+.payment .confirmPaymentButton {
+  background-color: #254254;
+  color: white;
+}
+
+.bookingSummary .boatImage {
+  height: 130px;
+  width: 150px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bookingSummary .imageAndNameHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bookingSummary .imageAndNameHolder .aboutBoat {
+  line-height: 20px;
+}
+
+.bookingSummary .flag {
+  height: 20px;
+  width: 20px;
+}
+
+.bookingSummary .threeHours {
+  border: 2px solid lightgray;
+}
+
+.bookingSummary .handlePeople {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.bookingSummary .handlePeopleButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 150px;
+  height: 40px;
+}
+
+.bookingSummary .aboutBoatTime {
+  background-color: #009CFF40;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: start;
+  text-align: start;
+}
+
+.bookingSummary .aboutBoatTime .checkBox {
+  height: 30px;
+  width: 25px;
+  border-radius: 10px !important;
+}
+
+.bookingSummary .aboutBoatTime .checkBox:focus {
+  background-color: #009CFF !important;
+  outline: none;
+  border: none;
+  color: none;
+}
+
+.bookingSummary .paymentSectionButtons {
+  border: 2px solid lightgray;
+  padding: 1px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bookingSummary .paymentSectionButtons .highlighted {
+  background-color: #254254;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.bookingSummary .giftCard {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bookingSummary .giftCard .applyButton {
+  background-color: #254254;
+  color: white;
+}
+
+.bookingSummary .giftCard .userInput {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  height: 35px;
+}
+
+.bookingSummary .bookBoatButton {
+  background-color: #254254;
+  color: white;
+}
+
+.boatDetailInformation .flag {
+  height: 20px;
+  width: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boatDetailInformation .mainBoatImage {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.boatDetailInformation .subImages {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boatDetailInformation .calendarSection .day {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  row-gap: 20px;
+}
+
+.boatDetailInformation .tagSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.boatDetailInformation .tagImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boatDetailInformation .messageOwnerButton {
+  border: 2px solid lightgray;
+}
+
+.boatDetailInformation .sleepingArrangement {
+  border: 2px solid #93D5FF;
+  background-color: #93D5FF40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.boatDetailInformation .fa-check {
+  color: green;
+}
+
+.boatDetailInformation .addOnsImages {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boatDetailInformation .visaPhoto {
+  width: 60px;
+  height: 100px;
+}
+
+.boatDetailInformation .paymentMethodSection {
+  display: -webkit-box  !important;
+  display: -ms-flexbox  !important;
+  display: flex  !important;
+  padding-left: 0px !important;
+}
+
+.boatDetailInformation .paymentMethod {
+  height: auto;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: -20px;
+}
+
+.message .messageBox {
+  width: 80%;
+}
+
+.message .boatImagesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message .boatImagesBox .Information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 17px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.message .boatImagesBox .boatImages {
+  min-height: 50px;
+  min-width: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.message .messageBodySection {
+  background-color: #f8f8f8;
+}
+
+.message .messageBodySection .messageBody {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.message .messageBodySection .todayChatTime {
+  border: 2px solid gray;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px;
+  border-radius: 20px;
+  background-color: none !important;
+}
+
+.message .manageItemsCenter {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.message .messageBoatDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail .box {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail .box2 {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail .messageBoatDetailImage {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.message .messageBoatDetail .smallMessages {
+  display: block;
+  width: auto;
+  padding: 5px;
+  margin-top: 10px;
+  border: 2px solid #D3D3D350;
+  border-radius: 5px;
+}
+
+.message .box2 .actualMessageOfUser {
+  padding-left: 14px;
+}
+
+.message .messageBoatDetail2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail2 .box {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail2 .box2 {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageBoatDetail2 .messageBoatDetailImage {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.message .messageBoatDetail2 .smallMessages {
+  display: block;
+  width: auto;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #254254;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100vw !important;
+    margin-left: 0px !important;
+  }
+  .messageBox {
+    width: 100vw !important;
+  }
+  .box, .box2 {
+    width: 90% !important;
+  }
+  #viewMoreSection {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .boatDetailSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .list {
+    width: 100%;
+  }
+  .contentHolder .navSection {
+    padding-right: 10px !important;
+  }
+  .contentHolder .navSection ul {
+    -webkit-column-gap: 10px !important;
+            column-gap: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .contentHolder {
+    display: none !important;
+  }
+  .mobileHeaderContent {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=agent.css.map */

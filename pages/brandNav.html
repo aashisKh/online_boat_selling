@@ -1,0 +1,84 @@
+
+
+
+<div class="contentHolder">
+    <div class="navSection">
+        <nav class="navitationLink">
+            <ul class="leftLink">
+                <li> <a href="#"> any agent </a> </li>
+            </ul>
+            <ul class="rightLink">
+                <li> <a href="#"> My Booking </a> </li>
+                <li> <a href="#"> Search  Boat </a> </li>
+                <li> <a href="#"> Message  </a> </li>
+                <li> <a href="#">Notifications </a> </li>
+            </ul>
+        </nav>
+    </div>  
+    
+    <div class="profileSection">
+            <img src="../images/boy.jpg">
+        <div>
+            <span class="agent">Logged in as Agent</span>
+            <span class="agentName">Jonathan Reeves</span>
+        </div>
+        <div> <i class="fas fa-caret-down"></i> </div>
+    </div>
+</div>
+
+<div class="mobileHeaderContent">
+    <header class="mobileHeader">
+        <a href="#">any agent</a>
+        <i class="fa fa-bars" id="bars"></i>
+    </header>
+    <div class="menuLists " id="menuLists">
+        <ul class="rightLink">
+            <li> <a href="#"> My Booking </a> </li>
+            <li> <a href="#"> Search  Boat </a> </li>
+            <li> <a href="#"> Message  </a> </li>
+            <li> <a href="#">Notifications </a> </li>
+        </ul>
+        <div class="profileSection">
+            <img src="../images/boy.jpg">
+        <div class="agensAndName">
+            <span class="agent">Logged in as Agent</span>
+            <span class="agentName">Jonathan Reeves</span>
+            <div> <i class="fas fa-caret-down"></i> </div>
+        </div>
+        <div class="fa-caret">
+
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- <script src="../js/agent.js"></script> -->
+<script>
+    
+
+    let menuList = document.getElementById("menuLists")
+    let breadcrums = document.getElementById("bars")
+    let active = false
+    breadcrums.onclick = ()=>{
+        
+        if(!active){
+            menuList.style.left = '0%'
+            active = true
+        }else{
+            menuList.style.left = '-100%'
+            
+            active = false 
+        }
+        
+    }
+    window.onscroll = ()=>{
+        if(active){
+            menuList.style.left = '-100%'
+            active = false
+        }
+    }
+
+</script>
+

@@ -1,0 +1,10 @@
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.agentOuterBox {
+  background-color: red;
+  display: none;
+}
+/*# sourceMappingURL=agentDesign.css.map */

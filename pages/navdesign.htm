@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script  src="../js/agent.js"></script>
+    <link rel="stylesheet" href="../css/agent.css">
+    <style>
+            .headerSection{
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid lightgray;
+            align-items: center;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 97%;
+        }
+        .rightNav{
+            display: flex;
+            align-items: center;
+            background-color: green;
+            justify-content: center !important;
+            column-gap: 10px;
+        }
+        .rightNav ul {
+            padding:0px;
+            display: flex;
+            column-gap: 20px;
+            align-items: center !important;
+            background-color: red;
+        }
+        .rightNav img{
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        .loggedInSection{
+            display: flex;
+            column-gap: 10px;
+        }
+        .userName{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="headerSection">
+        <div class="wrapper">
+            <nav class="leftNav">
+                <a href="#"> any agent </a> 
+            </nav>
+            <nav class="rightNav">
+                <!-- <ul>
+                    <li> <a href="#"> My Booking</a>  </li> 
+                    <li> <a href="#"> My Booking</a>  </li> 
+                    <li> <a href="#"> My Booking</a>  </li> 
+                    <li> <a href="#"> My Booking</a>  </li> 
+                </ul> -->
+                <a href="#"> any agent </a> 
+                <a href="#"> any agent </a> 
+                <a href="#"> any agent </a> 
+                <a href="#"> any agent </a> 
+                <a href="#"> any agent </a> 
+                <div class="loggedInSection">
+                    <div>
+                        <img src="../images/boy.jpg">
+                    </div>
+                    <div class="userName ">
+                        <div class="d-flex flex-column">
+                            <span> Logged in as Agent</span>
+                            <b> Jonathan Reeves</b>
+                        </div>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+</body>
+</html>

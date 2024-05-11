@@ -1,0 +1,32 @@
+.outerCheckBox{
+    height: calc(100vh - 80px);
+    width: 100%;
+   
+}
+
+.mainContentSection{
+
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.acceptedCheck {
+}
+.fa-check{
+    font-size: 30px;
+    background-color: #00FF0040;
+    padding:30px;
+    border-radius: 100%;
+}
+.bookingButton{
+    background-color: #254254 !important;
+}
+
+.backButton{
+    background-color: white !important;
+    color:black;
+}

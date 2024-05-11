@@ -1,0 +1,80 @@
+:root{
+    --dateTimeColor : lightgray;
+    --brandColor : #254254;
+}
+.bookingBoatImages{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fullDetailandTime{
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 20px;
+    
+}
+
+.rrr{
+  
+    display: flex !important;
+}
+
+.bookedBy{
+    font-size: 12px;
+    color:lightgray;
+    font-weight: bold;
+}
+
+.boatName , .boatPrice{
+    font-size: 20px;
+}
+
+.timeanddate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:var(--dateTimeColor)
+}
+
+.total{
+    color:var(--dateTimeColor)
+}
+.ConfirmButton{
+    background-color: var(--brandColor);
+}
+
+.paymentConfirmationSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.messageAndCancel{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.fa{
+    font-size: 12px;
+}
+
+.verifiedAndMessage{
+    font-weight: bold;
+    color: var(--dateTimeColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchBox{
+    padding-left: 30px;
+}
+.fa-search{
+    position: absolute;
+    margin-top: -23px;
+    padding-right: 10px !important;
+    margin-left: 10px;
+}
+
